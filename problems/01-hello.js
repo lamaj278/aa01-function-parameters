@@ -7,6 +7,12 @@ console.log.
 
 // Your code here 
 
+function hello(firstName) {
+        console.log("Hello, " + firstName)
+}
+
+hello("cat")
+
 // Note: If you console.log the return value of these function calls; you will get undefined. Remember a function that does not return anything evaluates to undefined.
 
 // hello("cat"); // "Hello, cat"

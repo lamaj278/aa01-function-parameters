@@ -7,6 +7,12 @@ the first argument to beCool is "Mary", then the function should return
 
 // Your code here 
 
+function beCool(sentence) {
+    return sentence + " is cool!";
+}
+
+beCool('Music ')
+
 // console.log(beCool("Music"));      // "Music is cool!"
 // console.log(beCool("JavaScript")); // "JavaScript is cool!"
 // console.log(beCool("The world"));  // "The world is cool!"
